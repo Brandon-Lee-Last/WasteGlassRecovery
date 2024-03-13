@@ -1,0 +1,139 @@
+.section-margin {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.section {
+    float: left;
+    width: 100%;
+}
+.m-b-n30 {
+    margin-bottom: -30px;
+}
+.service-layer-image {
+    position: relative;
+    height: 577px;
+}
+
+.about-image {
+    max-width: 530px;
+}
+.service-layer-image .about-image-1 {
+    -webkit-box-shadow: #959ea5 0px 0px 41px;
+    box-shadow: #959ea5 0px 0px 41px;
+    border-radius: 50px;
+    width: 450px;
+    height: 300px;
+}
+.service-layer-image .about-image-2 {
+    position: absolute;
+    right: 0px;
+    top: 255px;
+    width: 350px;
+    height: 300px;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.mw-100 {
+    max-width: 100%!important;
+}
+h2 {
+}
+h2{
+/*     font-family: "Vidaloka", serif; */
+    font-weight: 600 !important;
+    line-height: 1.2;
+    color: #232324;
+      font-size: 36px;
+
+}
+.about-content span {
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    display: block;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #8a8a8a;
+    line-height: 2;
+}
+
+.m-b-30 {
+    margin-bottom: 30px;
+}
+
+
+.section-heading {
+    margin-bottom: 50px;
+}
+.section-heading h5 {
+    color: #F56960;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.title-icon-divider {
+    color: #0791BE;
+    line-height: 1;
+    position: relative;
+    margin-top: 25px;
+      display: flex;
+
+}
+.title-icon-divider:before, .title-icon-divider:after {
+    content: "....";
+    display: inline-block;
+    font-size: 37px;
+    line-height: 0;
+    letter-spacing: 3px;
+}
+.title-icon-divider [class*=fa-] {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title-icon-divider ~ p {
+    margin-top: 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+span{
+    color: #F56960;
+}
+
+.center-align{
+    justify-content: center;
+    align-items: center;
+}
+
+.spacer{
+    margin: 100px 0;
+}
+
+.left-align{
+    margin-left: 30px;
+}
+
+.right-align{
+    margin-right: 100px;
+}
+
+.img-fluid-right{
+    float: right;
+}

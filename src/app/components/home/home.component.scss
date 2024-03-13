@@ -1,0 +1,75 @@
+       /* Add your custom CSS styles here */
+       body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+    }
+    .container {
+        padding: 20px;
+    }
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+    .services-info {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .services-info i {
+        font-size: 24px;
+    }
+    .services-info h4 {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+    .services-info p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .services-info a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+    .box{
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        margin: 0px;
+        padding: 10px;
+       p{
+        text-align: center;
+       }
+    }
+
+    .outerBox{
+        margin-top: 6vh;
+        display: flex;
+        gap: 20px;
+    }
+
+    p{
+        text-align: center;
+        font-size: large;
+
+        span{
+            color: #007bff;
+        }
+    }
+
+    h4{
+        color: #007bff
+    }
+
+    @media (max-width: 768px) {
+        .outerBox {
+            display: block;
+            /* Additional mobile-specific styles */
+        }
+
+        .box{
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            margin-bottom: 30px;
+            padding: 10px;
+           p{
+            text-align: left;
+           }
+        }
+    }
