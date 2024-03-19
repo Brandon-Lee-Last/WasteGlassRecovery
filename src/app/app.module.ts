@@ -11,6 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutUsComponent } from './components/pages/about-us/about-us.component';
 import { HomePageComponent } from './components/pages/home-page/home-page.component';
 import { ContactUsComponent } from './components/pages/contact-us/contact-us.component';
+import { AlertModalsComponent } from './components/alert-modals/alert-modals.component';
+import { LoadingScreenComponent } from './components/loading-screen/loading-screen.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { ContactUsComponent } from './components/pages/contact-us/contact-us.com
     FooterComponent,
     AboutUsComponent,
     HomePageComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    AlertModalsComponent,
+    LoadingScreenComponent
   ],
   imports: [
     BrowserModule,

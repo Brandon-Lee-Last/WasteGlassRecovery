@@ -137,3 +137,68 @@ span{
 .img-fluid-right{
     float: right;
 }
+
+/* Default grid layout with 3 columns */
+.col {
+    width: 33.33%;
+  }
+  
+  /* On screens that are 600px or less, switch to 2 columns */
+  @media screen and (max-width: 600px) {
+    .about-image-2 {
+        display: none;
+    }
+    .about-image-1 {
+        width: 80%;
+        height: 100px;
+    }
+    .col {
+      width: 50%;
+    }
+
+
+    .left-align{
+        margin-left: 0;
+    }
+    
+    .right-align{
+        margin-right: 0;
+    }
+    
+    .img-fluid-right{
+        float: 0;
+    }
+
+    .container{
+       margin: auto;
+       justify-content: center;
+       align-content: center;
+       text-align: center;
+    }
+
+    .img-fluid-right{
+        display: none;
+    }
+
+    .img-fluid-2{
+        margin-top: -100px;
+        margin-bottom: 50px;
+    }
+
+    .service-layer-image{
+        margin-top: -80px;
+        height: 300px;
+    }
+
+    .title-icon-divider{
+        display: none;
+    }
+  }
+  
+  /* On screens that are 480px or less, use a single column */
+  @media screen and (max-width: 480px) {
+    .col {
+      width: 100%;
+    }
+  }
+  

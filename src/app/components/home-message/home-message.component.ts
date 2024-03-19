@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-message.component.scss']
 })
 export class HomeMessageComponent {
-  message: string = "Glass Connect: Bridging Recycling Gaps";
+  message: string = "Bridging Recyacling Gaps";
+
+  constructor() {}
 }
