@@ -8,7 +8,7 @@ import * as AOS from 'aos';
 })
 export class HomeComponent implements OnInit {
 
-  aboutUsPage: String = window.location.origin + "/about-us";
+  aboutUsPage: String = "https://brandon-lee-last.github.io/WasteGlassRecovery/about-us/assets/images/LogoMain.png";
 
   ngOnInit() {
     AOS.init();
