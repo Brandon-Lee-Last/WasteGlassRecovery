@@ -13,6 +13,9 @@ import { HomePageComponent } from './components/pages/home-page/home-page.compon
 import { ContactUsComponent } from './components/pages/contact-us/contact-us.component';
 import { AlertModalsComponent } from './components/alert-modals/alert-modals.component';
 import { LoadingScreenComponent } from './components/loading-screen/loading-screen.component';
+import { ServicesComponent } from './components/pages/services/services.component';
+import { GalleryComponent } from './components/pages/gallery/gallery.component';
+import { DocumentComponent } from './components/pages/document/document.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { LoadingScreenComponent } from './components/loading-screen/loading-scre
     HomePageComponent,
     ContactUsComponent,
     AlertModalsComponent,
-    LoadingScreenComponent
+    LoadingScreenComponent,
+    ServicesComponent,
+    GalleryComponent,
+    DocumentComponent
   ],
   imports: [
     BrowserModule,

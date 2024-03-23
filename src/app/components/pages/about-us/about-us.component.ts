@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as AOS from 'aos';
 
 @Component({
@@ -6,7 +6,10 @@ import * as AOS from 'aos';
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.scss']
 })
-export class AboutUsComponent {
+export class AboutUsComponent implements OnInit {
 
+  ngOnInit() {
+  
+  }
 
 }

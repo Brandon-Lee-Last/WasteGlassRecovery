@@ -8,9 +8,10 @@ import * as AOS from 'aos';
 })
 export class HomeComponent implements OnInit {
 
-  aboutUsPage: String = "https://brandon-lee-last.github.io/WasteGlassRecovery/about-us/assets/images/LogoMain.png";
+  aboutUsPage: String = "https://brandon-lee-last.github.io/WasteGlassRecovery/about-us";
 
   ngOnInit() {
     AOS.init();
   }
+
 }
